@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files  = Dir["README*"]
   s.add_dependency 'rails'
   s.add_dependency 'nokogiri'
-  s.add_dependency 'axlsx'
+  s.add_dependency 'axlsx', '2.1.0.pre'
   s.add_dependency 'chronic'
   s.add_development_dependency 'haml-rails'
   s.add_development_dependency 'rspec-rails'
